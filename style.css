@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #000000;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+  margin: 20px;
+}
+
+.startpage {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.core{
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  background-image: url('back.jpg');
+  padding: 10px 0 10px 0; 
+}
+
+.aboutmep{
+  max-width: 600px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.core img {
+  width: 10%;
+  border-radius: 50%;
+  align-items: center;
+  margin-right: 20px;
+
+}
+
+table {
+  border-collapse: collapse;
+  width: 70%;
+  align-items: center;
+  margin: 80px auto;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+footer {
+  background-color: black;
+  padding: 20px;
+  text-align: left;
+  color: #ffffff;
+  position:fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
